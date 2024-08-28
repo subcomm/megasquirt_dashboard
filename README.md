@@ -1,2 +1,2 @@
 # megasquirt_dashboard
-MF Feather CAN + Circuitpython + Nextion HMI display + Megasquirt MS3
+Adafruit M4 Feather CAN + Circuitpython + Nextion HMI display + Megasquirt MS3 CANBUS
