@@ -53,17 +53,3 @@ while True:
     message_send(data_s)
     receive_uart()
     time.sleep(1.0)
-
-
-# Monochrome 0.96" 128x64 OLED ###########
-WIDTH = 128
-HEIGHT = 64
-BORDER = 5
-i2c = board.I2C()
-displayio.release_displays()
-display_bus = i2cdisplaybus.I2CDisplayBus(i2c, device_address=0x3c)
-display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=WIDTH, height=HEIGHT)
-# Monochrome 0.96" 128x64 OLED END ###########
-
-
-
